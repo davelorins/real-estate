@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .container{
+width: 100%;
+height: 100vh;
+color: white;
+} */
+
+/* body{
+    background-color: black;
+    color: white;
+} */
+
+.background {
+    width: 100%;
+    height: 700px;
+    animation: ife 20s infinite;
+    position: relative;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    text-transform: capitalize;
+    position:sticky ;
+    top: 0%;
+}
+
+.header{
+    font-size: 35px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+   
+}
+
+span{
+    color: gold;
+}
+ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 10px; 
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes ife {
+    0%{
+    background: url("./img/30389.jpg") center/cover no-repeat fixed ;
+    
+    }
+    25%{
+    background: url("./img/walkwat.jpeg") center/cover no-repeat fixed;
+    }
+    50%{
+        background: url("./img/check-in.jpeg") center/cover no-repeat fixed;
+    }
+    75%{
+        background: url("./img/hotel.img") center/cover no-repeat fixed;
+    }
+    100%{
+        background:url("./img/food\ menu.avif") center/cover no-repeat fixed;
+    }
+    
+}
+.btn{
+    font-size: 18px;
+}
+.btn:hover{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    outline: black;
+    
+}
+ul li a:hover{
+    color: gold;
+}
+
+.lbanner{
+    max-width: 900px;
+    height: 150px;
+    margin: 0 auto 0;
+    margin-top: -50px;
+    background:goldenrod;
+    opacity: 0.3;   
+}
+.contain{
+    /* background-color: rgb(204, 127, 27); */
+    width: 100%;
+    height: 400px;   
+    display: flow-root;
+}
+.start-living{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin-right: 4rem;
+    margin-left: 3rem; ;
+    color: black; 
+    text-align: center;
+    /* background-color: blue; */
+    padding-left: 7rem;
+}
+.ST-info{
+    /* color: white; */
+    /* padding-right: 4rem; */
+    
+}
